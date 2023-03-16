@@ -1,5 +1,5 @@
 /** @file ShelfBinPack.cpp
-	@author Jukka Jylänki
+	@author Jukka Jylanki
 
 	@brief Implements different bin packer algorithms that use the SHELF data structure.
 
