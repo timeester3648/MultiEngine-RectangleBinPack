@@ -2,7 +2,7 @@ void main(MultiBuild::Workspace& workspace) {
 	auto project = workspace.create_project(".");
 	auto properties = project.properties();
 
-	properties.name("RectangleBinPack");
+	project.name("RectangleBinPack");
 	properties.binary_object_kind(MultiBuild::BinaryObjectKind::eStaticLib);
 
 	project.include_own_required_includes(true);
